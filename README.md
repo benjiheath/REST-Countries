@@ -56,7 +56,7 @@ Users should be able to:
 
 ### Screenshots
 
-![screenshot](./screenshots/Animation2.gif)
+![screenshot](https://gyazo.com/5a1a9114be4544b04383e619b8d3b5e0)
 ![screenshot](https://i.gyazo.com/dcb2c1dde98eae63c8cb79c48786bf31.gif)
 
 ### Links
