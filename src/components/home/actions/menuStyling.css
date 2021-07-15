@@ -1,0 +1,88 @@
+.control {
+  border: none;
+  display: flex;
+  align-items: center;
+  outline: none;
+  width: 175px;
+  box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.05);
+  height: 5rem;
+  padding: 0 2.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.Dropdown-root:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.Dropdown-root:not(:last-child) .control {
+  justify-content: center;
+  width: 15rem;
+  padding-right: 4rem;
+}
+
+.control-dark {
+  background-color: hsl(209, 23%, 22%);
+  color: #fff;
+}
+
+.control:hover {
+  box-shadow: none;
+}
+
+.arrow {
+  margin: 0.8rem 0.3rem 0 0;
+}
+
+.menu {
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 15px 2px rgba(0, 0, 0, 0.4);
+  margin-top: 0.5rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+  max-height: 250px !important;
+}
+
+.menu .Dropdown-option {
+  padding-left: 2.5rem;
+}
+
+.menu-dark {
+  background-color: hsl(209, 23%, 22%);
+}
+
+.menu-dark .Dropdown-option {
+  color: #fff;
+}
+
+.menu-dark .Dropdown-option:hover,
+.menu-dark .is-selected {
+  background-color: hsl(207, 26%, 17%);
+  font-weight: 800;
+}
+
+.menu-light .Dropdown-option:hover,
+.menu-light .is-selected {
+  background-color: hsl(0, 0%, 98%);
+  font-weight: 800;
+}
+
+.menu .is-selected::after {
+  content: \2191;
+}
+
+@media (max-width: 910px) {
+  .Dropdown-root {
+    justify-content: center;
+    width: 45%;
+    margin-right: 0 !important;
+  }
+
+  .Dropdown-root .control {
+    width: 100% !important;
+  }
+}

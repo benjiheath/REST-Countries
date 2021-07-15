@@ -1,0 +1,25 @@
+.dark {
+  --text-color: hsl(0, 0%, 100%);
+  --input-color: hsl(0, 0%, 100%);
+  --bg-app: hsl(207, 26%, 17%);
+  --bg-element: hsl(209, 23%, 22%);
+  --shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  --shadow-hover: 0px 15px 17px 7px rgba(0, 0, 0, 0.125);
+  --shadow-card-hover: 1px 1px 10px 3px rgba(0, 0, 0, 0.2);
+  --shadow-btn: 1px 1px 15px 5px rgba(0, 0, 0, 0.25);
+  --shadow-bl: 1px 1px 12px 3px rgba(0, 0, 0, 0.15);
+  --shadow-btn-hover: 0px 0px 3px 1px rgba(0, 0, 0, 0.175);
+}
+
+.light {
+  --text-color: hsl(200, 15%, 8%);
+  --bg-app: hsl(0, 0%, 98%);
+  --bg-element: hsl(0, 0%, 100%);
+  --input-color: hsl(0, 0%, 52%);
+  --shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.05);
+  --shadow-hover: 0px 12px 12px 4px rgba(0, 0, 0, 0.035);
+  --shadow-card-hover: 1px 1px 8px 2px rgba(0, 0, 0, 0.04);
+  --shadow-btn: 1px 1px 10px 2px rgba(0, 0, 0, 0.06);
+  --shadow-bl: 1px 1px 10px 2px rgba(0, 0, 0, 0.06);
+  --shadow-btn-hover: 0px 0px 2px 1px rgba(0, 0, 0, 0.025);
+}
