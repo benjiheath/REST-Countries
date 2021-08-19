@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import Detail from './Detail';
 import { Link } from 'react-router-dom';
 import { useGlobalContext } from '../../../context/AppContext';
@@ -37,10 +37,21 @@ export default CountryCard; /*
 
 */ // Styling
 
+const fadeIn = keyframes`
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+
+  }
+`;
+
 const Card = styled.div`
   border-radius: 5px;
   overflow: hidden;
   transition: 0.1s linear;
+  animation: 1s ${fadeIn} ease-out;
 
   box-shadow: var(--shadow-hover);
 
